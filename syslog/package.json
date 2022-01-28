@@ -1,0 +1,21 @@
+{
+  "name": "syslog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "bootstrap": "^5.1.3",
+    "china-time": "^0.12.3",
+    "express": "^4.17.2",
+    "iconv-lite": "^0.6.3",
+    "mongoose": "^6.1.6",
+    "syslog-server": "^1.0.1",
+    "syslogd": "^1.1.2"
+  }
+}
