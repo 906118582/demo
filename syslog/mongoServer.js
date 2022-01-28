@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const chinaTime = require('china-time');
 
-mongoose.connect('mongodb://10.14.3.7:27017/LogData', {
+mongoose.connect('#', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
